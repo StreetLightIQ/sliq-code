@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sliq"
+version = "1.0.0"
+description = "StreetLightIQ: streetlight monitoring and roadway illumination estimation from a dashboard phone"
+license = {text = "AGPL-3.0-only"}
+requires-python = ">=3.12"
+
+[tool.setuptools.packages.find]
+include = ["sliq*"]
+
+[tool.setuptools.package-data]
+"sliq.physics" = ["data/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

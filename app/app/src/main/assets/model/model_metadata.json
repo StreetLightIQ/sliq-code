@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "model_version": "student_n_int8",
+  "sha256": "daff225760e96f7606973aec28105fef703a24fc2f350d5d810e21a90f5e3653",
+  "file": "model/student_n_int8.tflite",
+  "input_width": 960,
+  "input_height": 544,
+  "input_color_space": "RGB",
+  "normalization": "0_1",
+  "input_layout": "NCHW",
+  "output_layout": "channels_first",
+  "output_coordinate_units": "normalized",
+  "output_format": "raw_xywh",
+  "labels": ["lamp_head"],
+  "target_labels": ["lamp_head"],
+  "threshold": 0.1,
+  "nms_iou": 0.7,
+  "quantization": "INT8",
+  "num_threads": 4,
+  "family": "yolo26",
+  "provenance": {
+    "source": "weights/student_n_int8.tflite",
+    "threshold_source": "validation tau (max recall at <= 0.2 FP/frame)",
+    "preprocessing": "letterbox, pad 114 centred, RGB/255"
+  }
+}

@@ -1,0 +1,5 @@
+# Table seg: ignore sparse-building packs
+name: seg_sparse_buildings
+epochs: 60
+warmup: 6
+clean_buildings: 0.01

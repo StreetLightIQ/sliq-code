@@ -1,0 +1,5 @@
+{
+ "student": 0.1,
+ "teacher": 0.15,
+ "confounder": 0.03
+}

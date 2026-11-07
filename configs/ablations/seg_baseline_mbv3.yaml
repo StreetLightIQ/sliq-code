@@ -1,0 +1,6 @@
+# Table seg: MobileNetV3 + DeepLabv3 (run with --seed 42, 43, 44)
+name: seg_mbv3
+arch: mbv3
+epochs: 60
+lr: 1.0e-4
+warmup: 6

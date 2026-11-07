@@ -1,0 +1,3 @@
+# Table seg: full-frame crops (720x1280)
+name: seg_full_frame
+crop: [720, 1280]

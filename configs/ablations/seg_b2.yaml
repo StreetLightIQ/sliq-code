@@ -1,0 +1,5 @@
+# Table seg: SegFormer-B2
+name: seg_b2
+arch: segformer_b2
+epochs: 60
+warmup: 6

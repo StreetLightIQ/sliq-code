@@ -1,0 +1,3 @@
+# Final segmenter, the defaults of segmentation/train.py (seed spread: --seed 43, 44)
+name: segmenter
+seed: 42

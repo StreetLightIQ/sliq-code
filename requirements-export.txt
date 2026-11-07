@@ -1,0 +1,11 @@
+# CPU environment for LiteRT export (fp32, int8dyn), static INT8 and .tflite scoring
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1+cpu
+torchvision==0.29.1+cpu
+torchao==0.18.0
+ultralytics==8.4.176
+numpy==2.5.4
+opencv-python==5.0.0.93
+PyYAML==6.0.3
+ai-edge-litert==2.3.0
+ai-edge-quantizer==0.10.0

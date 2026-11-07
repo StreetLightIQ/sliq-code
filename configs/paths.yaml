@@ -1,0 +1,5 @@
+# Relative paths are resolved from the repository root.
+# SLIQ_DATA, SLIQ_RUNS and SLIQ_WEIGHTS override these.
+data: data
+runs: runs
+weights: weights

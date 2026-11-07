@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.egg-info/
+/data/
+/runs/
+.pytest_cache/
+
+# Android
+app/.gradle/
+app/.kotlin/
+app/**/build/
+app/local.properties
+*.jks
+*.keystore
+.idea/
+/*.pt
+/*.npy
